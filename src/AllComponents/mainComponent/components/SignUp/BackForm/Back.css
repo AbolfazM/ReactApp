@@ -1,0 +1,11 @@
+.Some {
+    background-color: rgb(42, 98, 201);
+}
+
+@media (max-width:440px) {
+    .Some {
+        background-color: rgb(42, 70, 63);
+        left: 1%;
+        position: relative;
+    }
+}

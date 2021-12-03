@@ -1,0 +1,10 @@
+.TopCourse {
+    color: white;
+}
+
+@media (max-width: 440px) {
+    .TopCourse {
+        top: 20rem;
+        background-color: red;
+    }
+}

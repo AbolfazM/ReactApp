@@ -1,0 +1,52 @@
+/* ./src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.a {
+    @apply inline-block pr-4 pt-7;
+}
+
+.headerlinks {
+    @apply p-3.5 transition duration-300 rounded-md text-black font-semibold;
+}
+
+.card {
+    @apply h-96 cursor-pointer w-96 rounded-md relative -bottom-60 shadow-2xl;
+}
+
+.img {
+    @apply w-96 rounded-t-md;
+}
+
+.cardTitle {
+    @apply text-right text-gray-600 text-xl font-bold mt-7 mr-6;
+}
+
+.btn {
+    @apply w-28 h-11 rounded-md text-white relative -bottom-52 mt-5 left-3;
+}
+
+.MenuItems {
+    @apply text-white mr-20 mt-2 relative cursor-pointer block text-right;
+}
+
+.MiniCards {
+    @apply group mt-24 w-60 h-48 bg-blue-500 rounded-md cursor-pointer transition duration-300 shadow-2xl;
+}
+
+.Social {
+    @apply w-7 transform duration-300 cursor-pointer;
+}
+
+.Input {
+    @apply bg-gray-300 duration-100 left-14 shadow appearance-none relative top-24 border-2 text-right border-gray-200 rounded-md w-60 py-1 px-2 text-gray-800 leading-tight;
+}
+
+.Dots {
+    @apply px-2 py-2 rounded-full absolute left-60;
+}
+
+.AboutText {
+    @apply absolute right-60 text-sm top-72 shadow-xl;
+}

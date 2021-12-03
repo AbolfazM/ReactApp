@@ -1,0 +1,9 @@
+.dark {
+    background-color: rgb(64, 133, 212);
+    transition: all linear .3s;
+}
+
+.light {
+    background-color: #fff;
+    transition: all linear .3s;
+}

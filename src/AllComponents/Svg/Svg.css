@@ -1,0 +1,12 @@
+.bigSvg {
+    width: 1100px;
+    top: 1300px;
+    position: absolute;
+}
+
+@media (max-width: 440px) {
+    .bigSvg {
+        width: 700px;
+        right: 7rem;
+    }
+}
